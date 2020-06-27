@@ -16,11 +16,11 @@ namespace SweepStakes
             Console.Write("First Name: ");
             contestantInfo = Console.ReadLine();
             Console.Write("Last Name: ");
-            contestantInfo += ',' + Console.ReadLine();
+            contestantInfo += "," + Console.ReadLine();
             Console.Write("Email Address: ");
-            contestantInfo += ',' + Console.ReadLine();
+            contestantInfo += "," + Console.ReadLine();
             Console.WriteLine("Contestant Registration Number: ");
-            contestantInfo += ',' + Console.ReadLine();
+            contestantInfo += "," + Console.ReadLine();
             return contestantInfo;
         }
     }

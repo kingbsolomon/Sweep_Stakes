@@ -21,5 +21,11 @@ namespace SweepStakes
             EmailAddress = emailAddress;
             RegistrationNumber = registrationNumber;
         }
+
+        public string[] SplitContestantString(string contestantInfo)
+        {
+            string[] constestantInfoString = contestantInfo.Split(',');
+            return constestantInfoString;
+        }
     }
 }
